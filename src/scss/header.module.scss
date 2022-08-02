@@ -1,0 +1,11 @@
+@import "./variable";
+
+header {
+   background-color: $blue-1;
+   padding: 3rem;
+   .title{
+    text-align: center;
+    color: red;
+   }
+}
+
