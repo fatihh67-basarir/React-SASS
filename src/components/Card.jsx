@@ -16,7 +16,7 @@ const Card = ({data}) => {
               <button className={cardStyle["btn-container--large"]}>Large</button>
             </div>
           </div>
-
+ 
         )
       })}
 

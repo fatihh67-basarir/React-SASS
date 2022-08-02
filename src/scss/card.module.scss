@@ -1,0 +1,64 @@
+@import "./variable";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    gap: 2rem;
+    .card {
+        padding: 1.5rem;
+        max-width: 400px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 5px 5px 5px 5px rgba($color: #000000, $alpha: 0.3);
+
+
+img {
+    width: 50%;
+    margin-top: 1rem;
+    border-radius: 50px;
+}
+
+h1 {
+    color: rgb(255, 196, 0);
+}
+
+h2 {
+    color: green;
+}
+
+.btn-container {
+    button{
+        border-radius: 1rem;
+        color: white;
+        cursor: pointer;
+        border: solid black 2px;
+        &:hover{
+            opacity: 0.8;
+        }
+       
+    }
+
+    &--small{
+        background-color: $blue-5;
+        padding: .4rem;
+        margin-right: .3rem;
+        
+    }
+
+    &--large{
+        background-color: $blue-3;
+        padding: .4rem 1.6rem;
+        
+    }
+    
+    
+}
+
+
+
+    }
+}
